@@ -2,9 +2,9 @@
 var product = [{
     id: 1,
     img: 'image/f0bfd16226cacee3591ba02708f8efb4.jpg',
-    name: 'Nike shoe',
+    name: 'himiko toga',
     price: 7000,
-    description: 'Nike Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam, labore dolorum optio ad consequatur cupiditate!',
+    description: 'himiko toga Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam, labore dolorum optio ad consequatur cupiditate!',
     type: 'shoe'
 }, {
     id: 2,
