@@ -24,7 +24,7 @@
 
             <div class="nav-profile">
                 <p class="nav-profile-name">Cart</p>
-                <div onclick="openCart()" class="nav-profile-cart">
+                <div onclick="openCart()" style="cursor: pointer;" class="nav-profile-cart">
                     <i class="fas fa-cart-shopping"></i>
                     <div id="cartcount" class="cartcount" style="display: none ;">
                         0
@@ -114,90 +114,17 @@
         <div onclick="closeModal()" class="modal-bg"></div>
         <div class="modal-page">
             <h2>My Cart</h2><br>
-            <div class="cartlist">
-                <div class="cartlist-items">
-                    <div class="cartlist-left">
-                        <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
-                            alt="">
-                        <div class="cartlistdetail">
-                            <p style="font-size: 1.5vw;">Product name</p>
-                            <p style="font-size: 1.2vw;">500 THB</p>
-                        </div>
-                    </div>
-                    <div class="cartlist-right">
-                        <p class="btnc">-</p>
-                        <p style="margin: 0 20px;">1</p>
-                        <p class="btnc">+</p>
-                    </div>
-                </div>
-                <div class="cartlist-items">
-                    <div class="cartlist-left">
-                        <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
-                            alt="">
-                        <div class="cartlistdetail">
-                            <p style="font-size: 1.5vw;">Product name</p>
-                            <p style="font-size: 1.2vw;">500 THB</p>
-                        </div>
-                    </div>
-                    <div class="cartlist-right">
-                        <p class="btnc">-</p>
-                        <p style="margin: 0 20px;">1</p>
-                        <p class="btnc">+</p>
-                    </div>
-                </div>
-                <div class="cartlist-items">
-                    <div class="cartlist-left">
-                        <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
-                            alt="">
-                        <div class="cartlistdetail">
-                            <p style="font-size: 1.5vw;">Product name</p>
-                            <p style="font-size: 1.2vw;">500 THB</p>
-                        </div>
-                    </div>
-                    <div class="cartlist-right">
-                        <p class="btnc">-</p>
-                        <p style="margin: 0 20px;">1</p>
-                        <p class="btnc">+</p>
-                    </div>
-                </div>
-                <div class="cartlist-items">
-                    <div class="cartlist-left">
-                        <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
-                            alt="">
-                        <div class="cartlistdetail">
-                            <p style="font-size: 1.5vw;">Product name</p>
-                            <p style="font-size: 1.2vw;">500 THB</p>
-                        </div>
-                    </div>
-                    <div class="cartlist-right">
-                        <p class="btnc">-</p>
-                        <p style="margin: 0 20px;">1</p>
-                        <p class="btnc">+</p>
-                    </div>
-                </div>
-                <div class="cartlist-items">
-                    <div class="cartlist-left">
-                        <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
-                            alt="">
-                        <div class="cartlistdetail">
-                            <p style="font-size: 1.5vw;">Product name</p>
-                            <p style="font-size: 1.2vw;">500 THB</p>
-                        </div>
-                    </div>
-                    <div class="cartlist-right">
-                        <p class="btnc">-</p>
-                        <p style="margin: 0 20px;">1</p>
-                        <p class="btnc">+</p>
-                    </div>
-                </div>
-                <div class="btn-control">
-                    <button onclick="closeModal()" class="btn">
-                        Cancel
-                    </button>
-                    <button class="btn btn-buy">
-                        Buy
-                    </button>
-                </div>
+            <div id="mycart" class="cartlist">
+
+            </div>
+            <div class="btn-control">
+              <button onclick="closeModal()" class="btn">
+                Cancel
+              </button>
+              <button class="btn btn-buy">
+                Buy
+              </button>
+                        
             </div>
         </div>
     </div>
