@@ -2,9 +2,9 @@
 var product = [{
     id: 1,
     img: 'image/f0bfd16226cacee3591ba02708f8efb4.jpg',
-    name: 'himiko toga',
+    name: 'Toga Himiko',
     price: 7000,
-    description: 'himiko toga Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam, labore dolorum optio ad consequatur cupiditate!',
+    description: 'Toga Himiko Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam, labore dolorum optio ad consequatur cupiditate!',
     type: 'shoe'
 }, {
     id: 2,
@@ -22,11 +22,11 @@ var product = [{
     type: 'shoe'
 },{
     id: 4,
-    img: 'https://images.unsplash.com/photo-1593287073863-c992914cb3e3?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774',
-    name: 'Adidas shoe',
+    img: 'image/31d51da3925e4b02c163ea103b0f7b99.jpg',
+    name: 'Saotome Mary',
     price: 4500,
-    description: 'Adidas shoe Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam, labore dolorum optio ad consequatur cupiditate!',
-    type: 'shoe'
+    description: 'Saotome Mary shoe Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam, labore dolorum optio ad consequatur cupiditate!',
+    type: 'char'
 }];
 
 // [{},{},{}] // length = 3
